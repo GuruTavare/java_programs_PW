@@ -17,7 +17,6 @@ public class Circle {
 		System.out.println("Enter the radius of circle: ");
 		Scanner sc = new Scanner(System.in); 
 		double radius = sc.nextDouble();
-		
 		System.out.println("Area of circle is: "+calculateArea(radius));
 		System.out.println("Circumference of circle is: "+calculateCircumference(radius));
 		sc.close();

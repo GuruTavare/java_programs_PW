@@ -3,6 +3,8 @@ package com.prowings.basic;
 import java.util.Scanner;
 
 public class Addition {
+	
+	
 	public static int calculateAddition(int number1, int number2){
 		return number1 + number2;
 	}

@@ -20,6 +20,7 @@ public class Test {
 	public double square(int i) {
 		return  Math.pow(i, i);
 	}
+	
 
 	public Test() {
 		super();
