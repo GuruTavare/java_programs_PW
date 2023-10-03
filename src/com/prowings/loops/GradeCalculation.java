@@ -14,7 +14,7 @@ public class GradeCalculation {
 			
 			avg= sum/marks.length;
 		}	
-		 return avg<=40 ? "C Grade":avg>41 && avg<=60 ?"B Grade":avg>61 && avg<=100 ?"A Grade":"Invalid Grade"; 
+		 return avg>0 && avg<=40 ? "C Grade":avg>41 && avg<=60 ?"B Grade":avg>61 && avg<=100 ?"A Grade":"Invalid Grade"; 
 	}
 
 	public static void main(String[] args) {
