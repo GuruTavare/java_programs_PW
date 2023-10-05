@@ -3,19 +3,16 @@ package com.prowings.loop;
 public class ForLoopDemo {
 
 	public static void main(String[] args) {
+		int rows = 5;
 
-		for (int i = 0; i <= 2; i++) {
-			System.out.println("    hey   ");
+		for (int i = 0; i < rows; i++) {
+//			System.out.println("\n ");
 
-			for (int j = 0; j <= 2; j++) {
-				System.out.println("j ");
-
-				for (int k = 0; k <= 2; k++) {
-					System.out.println("    k ");
-				}
+			for (int j =0 ; j<=i; j++) {
+				System.out.print("g ");
 
 			}
+			System.out.println();
 		}
-
 	}
 }

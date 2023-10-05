@@ -3,7 +3,6 @@ package com.prowings.loop;
 import java.util.Scanner;
 
 public class GradeCalculation {
-
 	public static String gradecalculator(int[] marks) {
 		int sum = 0;
 		int avg = 0;
