@@ -6,7 +6,7 @@ public class FilterEvenNumbersFromArray {
 
 	public static void main(String[] args) {
 
-		int[] nums = { 2, 200, 65, 16, 71, 4, 12, 23, 48, 80, 32 };
+		int[] nums = { 2,15,4,6,8,10,45,69,96,75,12,1};
 
 		int[] result = filterEvenNumbers(nums);
 
