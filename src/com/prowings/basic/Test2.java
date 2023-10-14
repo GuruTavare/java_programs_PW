@@ -3,7 +3,8 @@ package com.prowings.basic;
 
 //import java.util.Scanner;
 
-public class Test2 {
+public abstract class Test2 {
+	public abstract void m1();
 //	
 	public static void main(String[] args) {
 		
@@ -20,15 +21,12 @@ public class Test2 {
 //		int num =Integer.parseInt(s1);
 //		
 //		System.out.print(num);
-		int i=1;
-		do {
-			
-			continue;
-		}
-		while(i==1);
-			
-		
-		
+//		int i=1;
+//		do {
+//			
+//			continue;
+//		}
+//		while(i==1);
 	}
 
 }
