@@ -9,5 +9,7 @@ package com.prowings.OOPs.inheritance.sigle;
 
 
 public class B extends A {
-
+		int i =10;
+		int j = 20;
+		
 }

@@ -1,6 +1,6 @@
 package com.prowings.OOPs.inheritance.sigle;
 
-public class A {
+public  class A {
  int age;
  String name;
 

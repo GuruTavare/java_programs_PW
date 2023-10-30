@@ -11,17 +11,15 @@ package com.prowings.OOPs.inheritance.multiple;
  */
 
 public class TestInterfaceA1A2 {
-	
+
 	public static void main(String[] args) {
 //		Here A1 is interface and A2 is normal class
-//		A1 a = new A1();					// invalid A1 is interface
-		
-//		A1 a1 = new A2();				// parent A1 can hold child A2
-		
+//		A1 a = new A1(); // invalid A1 is interface can not be instantiated.
+
+//		A1 a1 = new A2(); // parent A1 can hold child A2
 //		A2 a3 = new A2();
-		
 //		A2 a4 = new A1();			// child can not hold parent object
-	
+//		A2 a5=(A2)a1;
 	}
 
 }
