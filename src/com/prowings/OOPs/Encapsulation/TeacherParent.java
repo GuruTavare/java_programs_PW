@@ -8,10 +8,14 @@ public class TeacherParent {
 	
 	public TeacherParent(int rollNum, String subject, String name,String schoolName) {
 		super();
-		this.rollNum = rollNum;
-		this.subject = subject;
-		this.name = name;
-		this.schoolName=schoolName;
+//		this.rollNum = rollNum;
+		this.setRollNum(rollNum);
+//		this.subject = subject;
+		this.setSubject(subject);
+//		this.name = name;
+		this.setName(name);
+//		this.schoolName=schoolName;
+		this.setSchoolName(schoolName);
 		
 	}
 	

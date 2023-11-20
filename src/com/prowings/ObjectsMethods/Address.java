@@ -2,6 +2,9 @@ package com.prowings.ObjectsMethods;
 
 public class Address {
 
+	int pin;
+	String city;
+	
 	public Address() {}
 	
 	public Address(int pin, String city) {
@@ -10,8 +13,6 @@ public class Address {
 		this.city = city;
 	}
 
-	int pin;
-	String city;
 	
 
 }
