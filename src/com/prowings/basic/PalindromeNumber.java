@@ -2,7 +2,7 @@ package com.prowings.basic;
 
 import java.util.Scanner;
 
-public class Palindrome {
+public class PalindromeNumber {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
