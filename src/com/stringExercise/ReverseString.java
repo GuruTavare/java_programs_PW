@@ -17,16 +17,19 @@ public class ReverseString {
 		sc.close();
 	}
 
-	/*
-	 * public static String reverseString(String name) { String rev = ""; for (int i
-	 * = name.length() - 1; i >= 0; i--) { rev = rev + name.charAt(i); }
-	 * 
-	 * return rev; }
-	 */
+//	public static String reverseString(String name) {
+//		String rev = "";
+//		for (int i = name.length() - 1; i >= 0; i--) {
+//			rev = rev + name.charAt(i);
+//		}
+//		return rev;
+//	}
 
 	public static String reverseArrayToString(String name) {
 		char[] data = name.toCharArray();
+		
 		char[] res = new char[data.length];
+		
 		int count = 0;
 		for (int i = data.length - 1; i >= 0; i--) {
 			res[count] = data[i];

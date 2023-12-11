@@ -22,9 +22,9 @@ package com.prowings.OOPs.overloading;
  */
 class Parent {
 	
-	public void m1(int i) {
-		System.out.println("int-arg");
-	}
+//	public void m1(int i) {
+//		System.out.println("int-arg");
+//	}
 //	public void m1(boolean b) {
 //		System.out.println("boolean-arg");
 //	}
@@ -32,18 +32,18 @@ class Parent {
 //		System.out.println("Boolean-arg");
 //	}
 
-	 int m1(long l) {
-		System.out.println("long-arg");
-		return 0;
-	}
-
-//	public void m1(Integer i) {
-//		System.out.println("Integer-arg");
+//	 int m1(long l) {
+//		System.out.println("long-arg");
+//		return 0;
 //	}
-  
-	public void m1(Number n) {
-		System.out.println("Number-arg");
+
+	public void m1(Integer i) {
+		System.out.println("Integer-arg");
 	}
+  
+//	public void m1(Number n) {
+//		System.out.println("Number-arg");
+//	}
 
 	public void m1(Object o) {
 		System.out.println("Object-arg");
@@ -51,6 +51,8 @@ class Parent {
 
 	public void m1() {
 		System.out.println("no-arg");
+		
+		
 	}
 }
 
@@ -59,7 +61,10 @@ public static void main(String[] args) {
 	Parent p = new Parent();
 	
 //	Integer i=10;
+		int i = 10;
+		p.m1(i);
 	
-	p.m1(true);
+	
+//	p.m1(true);
 }
 }

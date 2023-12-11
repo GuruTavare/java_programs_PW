@@ -1,6 +1,6 @@
 package com.prowings.basic;
 
-public  class Test {
+public class Test {
 	public static void main(String[] args) {
 
 		double start = System.nanoTime();
@@ -10,12 +10,16 @@ public  class Test {
 		System.out.println(d);
 		double duration = (System.nanoTime() - start) / 1000000;
 		System.out.println(duration / 1000000 + " s");
-		
+
 		System.out.println("===============================");
-		int i =315;
-		byte b =(byte)i;
+		extracted();
+
+	}
+
+	private static void extracted() {
+		int i = 315;
+		byte b = (byte) i;
 		System.out.println(b);
-		
 	}
 
 	/**

@@ -12,10 +12,12 @@ public class MergedArray {
 		int [] c =mergedArray(a,b);
 		
 		System.out.println("After merging the arrays: "+Arrays.toString(c));
+		
 
 	}
 
 	private static int[] mergedArray(int[] a, int[] b) {
+		
 		
 		int[] res = new int[a.length+b.length];
 		
