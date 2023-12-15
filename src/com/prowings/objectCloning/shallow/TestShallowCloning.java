@@ -15,7 +15,7 @@ public class TestShallowCloning implements Cloneable {
 
 		Employee emp1 = new Employee(10, "Ram", address);
 
-		//System.out.println(emp1);
+		System.out.println(emp1);
 		Employee emp2 = null;
 		try {
 			emp2 = (Employee) emp1.clone();
@@ -28,9 +28,10 @@ public class TestShallowCloning implements Cloneable {
 		System.out.println(emp2);
 
 		System.out.println("After changing ");
+		emp1.getAddress().setPin(567);
 		emp1.getAddress().setCity("mumbai");
 		System.out.println(emp1);
-		System.out.println(emp2);
+		System.out.println(emp2); 
 
 	}
 

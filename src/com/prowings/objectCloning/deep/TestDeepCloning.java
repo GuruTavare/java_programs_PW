@@ -5,8 +5,7 @@ package com.prowings.objectCloning.deep;
  * referenced by the original object. This ensures that changes made to the
  * objects referred to by the original object do not affect the cloned object,
  * and vice versa.
- * 
- */
+  */
 public class TestDeepCloning implements Cloneable{
 
 	public static void main(String[] args) {
@@ -28,8 +27,8 @@ public class TestDeepCloning implements Cloneable{
 		System.out.println(s2);
 
 		System.out.println("After changing ");
-		s1.setName("Sham");
-		s1.getCar().setName("Mahindra");
+		s2.setName("Sham");
+		s2.getCar().setName("Mahindra");
 		System.out.println(s1);
 		System.out.println(s2);
 	}
