@@ -5,7 +5,11 @@ import java.util.Arrays;
 public class ArrayDemo {
 
 	public static void main(String[] args) {
-		char ch ='a';
+		//System.out.println(Thread.currentThread().getName());
+		
+		
+		
+		//char ch ='a';
 		int[] nums = new int[5];
 		
 		System.out.println(nums.length);

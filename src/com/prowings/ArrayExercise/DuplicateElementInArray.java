@@ -11,7 +11,7 @@ public class DuplicateElementInArray {
 	}
 
 	private static int[] findDuplicates(int[] array) {
-		Arrays.sort(array);
+		Arrays.sort(array);  
 		// System.out.println(Arrays.toString(array));
 		int[] duplicates = new int[array.length];
 
