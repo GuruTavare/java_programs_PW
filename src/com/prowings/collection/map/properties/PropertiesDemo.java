@@ -1,4 +1,4 @@
-package com.prowings.map.properties;
+package com.prowings.collection.map.properties;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
